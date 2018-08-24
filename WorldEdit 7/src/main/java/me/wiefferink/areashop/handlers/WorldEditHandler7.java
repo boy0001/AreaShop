@@ -63,7 +63,7 @@ public class WorldEditHandler7 extends WorldEditInterface {
 	@Override
 	public boolean restoreRegionBlocks(File rawFile, GeneralRegionInterface regionInterface) {
 		File file = null;
-		for (BuiltInClipboardFormat format : BuiltInClipboardFormat.values()) {
+		for (ClipboardFormat format : BuiltInClipboardFormat.values()) {
 			for (String extension : format.getFileExtensions()) {
 				if (new File(rawFile.getAbsolutePath() + "." + extension).exists()) {
 					file = new File(rawFile.getAbsolutePath() + "." + extension);

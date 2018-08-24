@@ -11,7 +11,7 @@
         <artifactId>areashop-parent</artifactId>
         <version>parent</version>
     </parent>
-
+    
     <dependencies>
         <dependency>
             <groupId>org.bukkit</groupId>
@@ -27,18 +27,28 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>com.sk89q</groupId>
-            <artifactId>worldedit</artifactId>
-            <scope>system</scope>
-            <version>any</version>
-            <systemPath>${project.basedir}/../dependencies/worldedit-bukkit-7.0.0-#3817.jar</systemPath>
+            <groupId>com.boydti</groupId>
+            <artifactId>fawe-api</artifactId>
+            <version>18.08.17-177bfaa-1999</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.boydti</groupId>
+            <artifactId>fawe-bukkit</artifactId>
+            <version>latest</version>
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.sk89q</groupId>
-            <artifactId>worldguard</artifactId>
-            <scope>system</scope>
-            <version>any</version>
-            <systemPath>${project.basedir}/../dependencies/worldguard-legacy-7.0.0-#1735.jar</systemPath>
+            <artifactId>worldguard-core</artifactId>
+            <version>latest</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.sk89q</groupId>
+            <artifactId>worldguard-legacy</artifactId>
+            <version>latest</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 </project>

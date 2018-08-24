@@ -27,32 +27,29 @@
             <type>jar</type>
         </dependency>
         <dependency>
+            <groupId>com.boydti</groupId>
+            <artifactId>fawe-api</artifactId>
+            <version>18.08.17-177bfaa-1999</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.boydti</groupId>
+            <artifactId>fawe-bukkit</artifactId>
+            <version>latest</version>
+            <type>jar</type>
+        </dependency>
+
+       <dependency>
             <groupId>com.sk89q</groupId>
-            <artifactId>worldedit</artifactId>
-            <scope>system</scope>
-            <version>any</version>
-            <systemPath>${project.basedir}/../dependencies/worldedit-bukkit-7.0.0-#3817.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>me.wiefferink</groupId>
-            <artifactId>areashop-worldguard-6</artifactId>
-            <version>WorldGuard-6</version>
+            <artifactId>worldguard-core</artifactId>
+            <version>latest</version>
             <type>jar</type>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.wiefferink</groupId>
-            <artifactId>areashop-worldguard-6_1_3</artifactId>
-            <version>WorldGuard-6_1_3</version>
-            <type>jar</type>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.sk89q</groupId>
-            <artifactId>worldguard</artifactId>
-            <scope>system</scope>
-            <version>any</version>
-            <systemPath>${project.basedir}/../dependencies/worldguard-legacy-7.0.0-#1735.jar</systemPath>
+            <artifactId>worldguard-legacy</artifactId>
+            <version>latest</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 </project>
